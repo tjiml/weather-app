@@ -1,0 +1,124 @@
+* {
+  color: white;
+  font-family: poppins;
+}
+
+.weather-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(https://images.unsplash.com/photo-1499346030926-9a72daac6c63?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+}
+
+.search-bar input {
+  width: 300px;
+  text-align: center;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  color: black;
+  border: none;
+}
+
+.search-bar input:focus {
+  outline: none;
+}
+
+.search-bar button {
+  width: 100px;
+  padding: 5px 10px;
+  text-align: center;
+  background-color: black;
+  border: none;
+}
+
+.weather-image h1 {
+  font-size: 100px;
+  padding-top: 50px;
+}
+
+.weather-location-title h1 {
+  font-size: 20px;
+  letter-spacing: -1px;
+}
+
+.weather-temp-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.weather-temp-display h1 {
+  font-size: 80px;
+}
+
+.weather-temp-display p {
+  font-size: 18px;
+  letter-spacing: -1px;
+}
+
+.min-max {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 5px white;
+  width: 200px;
+  padding-top: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  backdrop-filter: blur(5px);
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  padding-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px white;
+}
+
+.element-container {
+  width: 200px;
+  box-shadow: 0 0 5px white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  margin-top: 20px;
+  backdrop-filter: blur(5px);
+}
+
+.element-container i {
+  margin: -15px 10px 0 0;
+}
+
+.source-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.source-container p {
+  font-size: 10px;
+}
+
+@media screen and (max-width: 430px) {
+
+  .search-bar input {
+    width: 200px;
+    font-size: 12px;
+  }
+
+  .search-bar button {
+    font-size: 12px;
+    width: 60px;
+  }
+
+}
